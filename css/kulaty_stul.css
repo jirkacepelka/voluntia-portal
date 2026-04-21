@@ -1279,3 +1279,33 @@ body {
   height: 60px;
   display: none;
 }
+
+@media (max-width: 1299px) {
+  .board-e73faab68982 {
+    width: 100%;
+    flex-direction: column;
+    row-gap: 24px;
+    column-gap: 0;
+    padding-inline: 16px;
+  }
+
+  .sidebar-e73f52973699,
+  .kontent-e73dfb4be006 {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .tabulka-se-e73e1ac438aa {
+    width: 100%;
+    max-width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .len-e73d2e083e1f,
+  .board-e73e140225c9,
+  .board-e73e150ac283 {
+    width: 100%;
+    max-width: none;
+  }
+}
